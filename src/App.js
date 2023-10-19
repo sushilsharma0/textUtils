@@ -1,4 +1,3 @@
-// export default App;
 import React, { useState } from "react"; // Import the necessary modules from React
 // import ModeBtn from "./components/ModeBtn";
 // import { BrowserRouter as Router, Switch, Route,Link } from "react-router-dom";
@@ -78,7 +77,7 @@ function App() {
               mode === "white" ? "text-black" : "text-white"
             } mb-4`}
           >
-            Text Find and Replace
+            Text Analysis
           </h1>
 
           <label className="relative inline-flex items-center cursor-pointer">
